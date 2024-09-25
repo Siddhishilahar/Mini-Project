@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asan 1</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            /* background-color: #f0f0f0; */
+            background-image: url("/static/images/background_img.jpg");
+            padding: 20px;
+        }
+        .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .image-text {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+        img {
+            max-width: 50%;
+            height: auto;
+            margin-right: 20px;
+            margin-bottom: 10px;
+        }
+        .text {
+            max-width: 400px;
+            text-align: left;
+        }
+        .divider {
+            width: 100%;
+            height: 2px;
+            background-color: #ccc;
+            margin: 20px 0;
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            background-color: #007bff;
+            color: white;
+            border-radius: 5px;
+        }
+        video {
+            margin-top: 20px;
+            max-width: 80%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="content">
+        <div class="image-text">
+            <img src="/static/images/asan_1.jpg" alt="Image">
+            <div class="text">
+                <h2>Your Title Here</h2>
+                <p>This is some text beside the image. It can be a description or any content you want to place here. The text will wrap under the image on smaller screens.</p>
+            </div>
+        </div>
+        
+        <!-- Divider Line -->
+        <div class="divider"></div>
+        
+        <button>Click Me</button>
+        <video controls>
+            <source src="your-video-url.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+</body>
+</html>

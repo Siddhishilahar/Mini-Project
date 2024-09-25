@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <title>Ai Yoga</title>
+  </head>
+  <body background="/static/images/bg_img.jpg">
+
+    {{!-- navigation bar --}}
+    {{>navbar data = details}}
+
+
+    {{!-- slider --}}
+    {{> slider}}
+
+
+   {{!-- Yoga pose for beginner --}}
+   {{> beginner}}    
+
+
+    {{!-- yoga poses for inter --}}
+   {{> inter}}
+
+    {{!-- yoga poses for expert --}}
+    {{>expert}}
+
+
+
+    
+    {{!-- <body>
+      
+	<div class="wrapper">
+		<input id="btnBox" type="checkbox">
+		<ul>
+			<li style="background-image: url(https://images.pexels.com/photos/3493777/pexels-photo-3493777.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)"></li>
+			<li style="background-image: url(https://images.pexels.com/photos/3761178/pexels-photo-3761178.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)"></li>
+			<li style="background-image: url(https://images.pexels.com/photos/6152103/pexels-photo-6152103.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)"></li>
+			<li style="background-image: url(https://images.pexels.com/photos/694587/pexels-photo-694587.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)"></li>
+			<li style="background-image: url(https://images.pexels.com/photos/3264706/pexels-photo-3264706.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)"></li>
+			<li style="background-image: url(https://images.pexels.com/photos/2448248/pexels-photo-2448248.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)"></li>
+			<li style="background-image: url(https://images.pexels.com/photos/783795/pexels-photo-783795.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)"></li>
+			<li style="background-image: url(https://images.pexels.com/photos/9892462/pexels-photo-9892462.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)"></li>
+			<li style="background-image: url(https://images.pexels.com/photos/3762569/pexels-photo-3762569.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)"></li>
+		</ul><label class="btn-area" for="btnBox"><span class="btn1">LOAD MORE</span> <span class="btn2">LOAD LESS</span></label>
+	</div>
+   </body> --}}
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+ 
+
+
+  {{!-- 2nd script --}}
+
+    
+  </body>
+</html>
